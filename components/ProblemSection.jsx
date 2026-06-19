@@ -23,7 +23,7 @@ const problems = [
 
 export default function ProblemSection() {
   return (
-    <section id="about" className="bg-cream py-18 md:py-24">
+    <section id="about" className="bg-cream py-16 md:py-24">
       <div className="container-page">
         <div className="mb-10 text-center">
           <p className="text-sm font-black tracking-[0.2em] text-caramel">MARKET NOTEBOOK</p>
