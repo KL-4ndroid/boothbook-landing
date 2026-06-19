@@ -29,6 +29,11 @@ body {
   background: rgba(214, 160, 100, 0.35);
 }
 
+.py-18 {
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+
 .container-page {
   width: min(1120px, calc(100% - 32px));
   margin-inline: auto;
