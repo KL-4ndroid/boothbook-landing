@@ -23,20 +23,20 @@ const features = [
 
 export default function FeaturePreview() {
   return (
-    <section className="bg-paper py-18 md:py-24">
+    <section id="features" className="bg-feria-paperSoft py-18 md:py-24">
       <div className="container-page">
         <div className="mx-auto mb-12 max-w-2xl text-center">
-          <p className="text-sm font-black tracking-[0.2em] text-caramel">COMING FEATURES</p>
-          <h2 className="mt-3 text-3xl font-black tracking-[-0.03em] text-ink md:text-4xl">未來，你可以用 BoothBook 記錄這些事</h2>
-          <p className="mt-4 text-base font-medium leading-8 text-ink/65">這不是一般記帳工具，而是為出攤日常設計的品牌經營筆記。</p>
+          <p className="feria-section-label">FÉRIA FEATURES</p>
+          <h2 className="feria-title mt-3 font-display text-3xl font-semibold md:text-4xl">未來，你可以用 Féria 記錄這些事</h2>
+          <p className="feria-copy mt-4 text-base font-medium">這不是一般記帳工具，而是為出攤日常設計的品牌經營筆記。</p>
         </div>
 
         <div className="grid gap-5 md:grid-cols-2">
           {features.map((feature) => (
-            <article key={feature.label} className="group rounded-3xl border border-line bg-cream p-7 shadow-card transition hover:-translate-y-1 hover:border-caramel/70">
-              <div className="mb-5 inline-flex rounded-full bg-forest/10 px-4 py-2 text-sm font-black text-forest">{feature.label}</div>
-              <h3 className="text-2xl font-black text-ink">{feature.title}</h3>
-              <p className="mt-4 text-base font-medium leading-8 text-ink/65">{feature.description}</p>
+            <article key={feature.label} className="group rounded-3xl border border-feria-line bg-feria-cream p-7 shadow-card transition hover:-translate-y-0.5 hover:border-feria-taupe/60">
+              <div className="mb-5 inline-flex rounded-full bg-feria-olive/10 px-4 py-2 text-sm font-semibold text-feria-olive">{feature.label}</div>
+              <h3 className="text-2xl font-semibold text-feria-ink">{feature.title}</h3>
+              <p className="feria-copy mt-4 text-base font-medium">{feature.description}</p>
             </article>
           ))}
         </div>
