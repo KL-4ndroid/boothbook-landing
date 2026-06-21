@@ -1,10 +1,10 @@
-# 出攤本 BoothBook Landing Page
+# Féria｜出攤筆記 Landing Page
 
-這是 **出攤本 BoothBook** 的產品發布前預告首頁，使用 Next.js 與 Tailwind CSS 建置，適合部署到 Vercel。
+這是 **Féria｜出攤筆記** 的產品發布前預告首頁，使用 Next.js 與 Tailwind CSS 建置，適合部署到 Vercel。
 
-## 頁面定位
+## 品牌定位
 
-目前這不是正式 App，而是 Coming Soon Landing Page，用來在正式版發布前建立期待感、社群導流與內測招募。
+Féria｜出攤筆記，是 **手作品牌的市集經營筆記**。目前這不是正式 App，而是 Coming Soon Landing Page，用來在正式版發布前建立期待感、社群導流與內測招募。
 
 ## 頁面區塊
 
