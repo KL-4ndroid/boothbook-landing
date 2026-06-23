@@ -1,7 +1,7 @@
 const features = [
   {
     label: '01',
-    title: '市集場次紀錄',
+    title: '市集場次筆記',
     description: '記錄日期、地點、攤費、天氣、人流與心得，讓每一場市集都有完整回顧。',
   },
   {
@@ -28,7 +28,7 @@ export default function FeaturePreview() {
         <div className="mx-auto mb-12 max-w-2xl text-center">
           <p className="feria-section-label">FÉRIA FEATURES</p>
           <h2 className="feria-title mt-3 font-display text-3xl font-semibold md:text-4xl">未來，你可以用 Féria 記錄這些事</h2>
-          <p className="feria-copy mt-4 text-base font-medium">這不是一般記帳工具，而是為出攤日常設計的品牌經營筆記。</p>
+          <p className="feria-copy mt-4 text-base font-medium">這不是一般記帳工具，而是為獨立品牌的出攤日常設計的市集經營筆記。</p>
         </div>
 
         <div className="grid gap-5 md:grid-cols-2">
