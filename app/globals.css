@@ -32,9 +32,10 @@ html {
 body {
   margin: 0;
   background:
-    radial-gradient(circle at 12% 0%, rgba(168, 149, 128, 0.16), transparent 30rem),
-    radial-gradient(circle at 92% 8%, rgba(95, 115, 88, 0.12), transparent 28rem),
-    linear-gradient(180deg, var(--feria-cream) 0%, var(--feria-ivory) 48%, var(--feria-paper-soft) 100%);
+    radial-gradient(circle at 10% -8%, rgba(168, 149, 128, 0.18), transparent 31rem),
+    radial-gradient(circle at 88% 6%, rgba(95, 115, 88, 0.13), transparent 30rem),
+    radial-gradient(circle at 50% 38%, rgba(255, 253, 247, 0.88), transparent 34rem),
+    linear-gradient(180deg, var(--feria-cream) 0%, var(--feria-ivory) 46%, var(--feria-paper-soft) 100%);
   color: var(--feria-ink);
   text-rendering: geometricPrecision;
   -webkit-font-smoothing: antialiased;
@@ -95,6 +96,17 @@ body {
   mask-image: linear-gradient(to bottom, black, transparent 70%);
 }
 
+.feria-noise::after {
+  content: '';
+  position: absolute;
+  inset: 7rem auto auto 50%;
+  width: min(64rem, 86vw);
+  height: 1px;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, transparent, rgba(168, 149, 128, 0.42), transparent);
+  pointer-events: none;
+}
+
 .feria-section-label {
   letter-spacing: 0.24em;
   text-transform: uppercase;
@@ -111,6 +123,25 @@ body {
 .feria-copy {
   color: rgba(38, 48, 33, 0.68);
   line-height: 1.95;
+}
+
+.feria-wordmark {
+  color: var(--feria-olive);
+  letter-spacing: -0.04em;
+}
+
+.feria-fine-rule {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(168, 149, 128, 0.48), transparent);
+}
+
+.feria-brand-card {
+  background: rgba(255, 253, 247, 0.72);
+  border: 1px solid rgba(226, 214, 199, 0.82);
+  box-shadow:
+    0 26px 70px rgba(38, 48, 33, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.74);
+  backdrop-filter: blur(18px);
 }
 
 .feria-canopy {
