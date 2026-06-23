@@ -20,7 +20,7 @@ export default function LaunchStatus() {
         <div className="mb-12 text-center">
           <p className="feria-section-label">BUILDING FÉRIA</p>
           <h2 className="feria-title mt-3 font-display text-3xl font-semibold md:text-4xl">目前正在準備正式版發布中</h2>
-          <p className="feria-copy mx-auto mt-4 max-w-2xl text-base font-medium">我們正在打造一個真正貼近市集攤主日常的工具。不只是記帳，而是幫你把每一次出攤變成可以回顧、比較、成長的資料。</p>
+          <p className="feria-copy mx-auto mt-4 max-w-2xl text-base font-medium">我們正在打造一個真正貼近市集攤主日常的工具。不只是記帳，而是幫獨立品牌把每一次出攤變成可以回顧、比較、成長的資料。</p>
         </div>
 
         <div className="grid gap-5 md:grid-cols-3">
