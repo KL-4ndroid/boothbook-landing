@@ -1,8 +1,8 @@
 const problems = [
   {
     icon: '記',
-    title: '賣完才發現沒記錄',
-    description: '今天賣得很好，但回家後只剩下模糊印象。',
+    title: '出攤後資料散落各處',
+    description: '今天賣得很好，但收入、商品、成本和心得都分散在不同地方。',
   },
   {
     icon: '市',
@@ -15,9 +15,9 @@ const problems = [
     description: '熱門款、滯銷款、回購款，都需要被記錄下來。',
   },
   {
-    icon: '本',
-    title: '成本與攤費總是分散在各處',
-    description: '出攤不是只有營收，真正重要的是最後留下多少。',
+    icon: '利',
+    title: '營收漂亮，不代表真的有賺',
+    description: '出攤不是只有營收，真正重要的是扣除成本後留下多少。',
   },
 ];
 
@@ -25,9 +25,10 @@ export default function ProblemSection() {
   return (
     <section id="about" className="bg-feria-cream py-16 md:py-24">
       <div className="container-page">
-        <div className="mb-10 text-center">
+        <div className="mx-auto mb-10 max-w-2xl text-center">
           <p className="feria-section-label">CREATOR PAIN POINTS</p>
-          <h2 className="feria-title mt-3 font-display text-3xl font-semibold md:text-4xl">你是不是也常常這樣出攤？</h2>
+          <h2 className="feria-title mt-3 font-display text-3xl font-semibold md:text-4xl">獨立品牌出攤時，最容易被忽略的事</h2>
+          <p className="feria-copy mt-4 text-base font-medium">Féria 想陪你把每一次市集留下來，不只是記帳，而是慢慢看懂品牌的方向。</p>
         </div>
 
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
